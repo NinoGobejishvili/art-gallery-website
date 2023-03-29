@@ -1,0 +1,300 @@
+/* mobile designe*/
+      
+.map-mobile{
+    position: relative;
+    z-index: 1;
+    }
+
+.map-tablet{
+    display: none;
+    }
+
+.map-desktop{
+    display: none;
+    }
+
+.left{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    }
+
+.left:hover{
+    cursor: pointer;
+    }    
+
+button{
+    height: 72px;
+    width: 204px;
+    font-family: Big Shoulders Display;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+    background-color: #151515;
+    color: white;
+    padding-left: 32px;
+    }  
+   
+.leftarrow{
+    background-color: #D5966C;
+    padding: 24px;
+    }  
+    
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    box-sizing: border-box;
+    padding: 48px 16px;
+    }
+
+.h1{
+    color: white;
+    height: 45px;
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 48px;
+    }
+
+.h2{
+    height: 32px;
+    color: #D5966C;
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    }
+
+.adress{
+    color:white;
+    height: 84px;
+    width: 343px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 20px;
+    }
+
+.p-black{
+    height: 140px;
+    width: 343px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: white;
+    margin-top: 20px;
+    }
+
+footer{
+    background-color: #D5966C;
+    color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 38px;
+    padding: 48px 32px;
+    height: 336px;
+    box-sizing: border-box;
+    }   
+
+.h-footer{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Big Shoulders Display;
+    height: 40px;
+    text-transform: uppercase;
+    }
+
+.p-footer{
+    height: 104px;
+    width: 311px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    }
+
+.social{
+    display: flex;
+    gap: 20px;
+    }
+
+a{
+    text-decoration: none;
+    }  
+    
+a:hover button {
+    background-color: #D5966C;
+    cursor: pointer;
+    } 
+    
+a:hover .leftarrow {
+    background-color: #151515;
+    cursor: pointer;
+    }        
+
+.rightarrow{
+    background-color: #D5966C;
+    padding: 24px;
+    height: 72px;
+    width: 56px;
+    }    
+
+.icon{
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    display: inline-block;
+    }  
+    
+.icon-facebook{
+    background-image: url(./assets/icon-facebook\ -\ dark.svg);
+    }
+    
+.icon-instagram{
+    background-image: url(./assets/icon-instagram\ -\ dark.svg);
+    }
+    
+.icon-twitter{
+    background-image: url(./assets/icon-twitter\ -\ dark.svg);
+    }
+    
+.icon-facebook:hover,
+.icon-facebook:focus{
+    background-image: url(./assets/icon-facebook.svg); 
+    }
+    
+.icon-instagram:hover,
+.icon-instagram:focus{
+    background-image: url(./assets/icon-instagram.svg);
+    }
+    
+.icon-twitter:hover,
+.icon-twitter:focus{
+    background-image: url(./assets/icon-twitter.svg);
+    }
+
+/* tablet design */
+
+@media screen and (min-width: 768px){
+
+    .map-mobile{
+        display: none;
+        }
+
+    .map-tablet{
+        display: block;
+        }
+
+   .kingstreet{
+        display: inline;
+        margin: auto;
+        }
+
+    section{
+        flex-direction: row;
+        justify-content: space-between;
+        }  
+
+    .left{
+        margin-left: 38px;
+        }    
+        
+    .h1{
+        height: 100px;
+        width: 223px;
+        margin-left: 20px;
+        } 
+        
+    .p-black{
+        height: 112px;
+        width: 398px;    
+        }    
+
+    footer{
+        flex-direction: row;
+        height: 216px;
+        width: 100%;
+        padding: 88px 39px;
+        box-sizing: border-box;
+        }
+   
+    .icon{
+        height: 24px;
+        }
+   
+}
+
+/* desktop design */
+      
+@media screen and (min-width: 960px){
+
+    .map-mobile{
+        display: none;
+        }
+
+    .map-tablet{
+        display: none;
+        }
+    
+    .map-desktop{
+        display: block;
+        width: 100%;
+        }
+
+    .left{
+        margin-left: 118px;
+        }    
+
+    .h1{
+       margin-right: 100px;
+       padding-left: 110px;
+       font-size: 70px;
+       line-height: 70px;
+       } 
+       
+    .h2{
+        font-size: 36px;
+        }   
+
+    .p-black{
+        height: 128px;
+        width: 540px;
+        font-size: 22px;
+        }
+
+    .p-footer{
+        width: 398px;
+        font-size: 18px;
+        }  
+    
+    .adress{
+        font-size: 22px;
+        }    
+
+    section{
+        justify-content: space-around;
+        }    
+
+    footer{
+        padding: 80px 165px;
+        box-sizing: border-box;
+        }
+
+    .h-footer{
+        font-size: 32px;
+        } 
+        
+    .social{
+        padding-right: 70px;
+        }    
+
+    }

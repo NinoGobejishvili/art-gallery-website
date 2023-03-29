@@ -1,0 +1,544 @@
+/* mobile designe */
+
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-family: Big Shoulders Display;
+    }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }    
+
+.overlay{
+    display: none;
+    }    
+
+.hero-tablet{
+    display: none;
+    }
+
+.hero-desktop{
+    display: none;
+    }
+
+.grid1-tablet{
+    display: none;
+    }
+
+.grid1-desktop{
+    display: none;
+    }
+
+.grid2-tablet{
+    display: none;
+    }
+
+.grid2-desktop{
+    display: none;
+    }
+
+.grid3-tablet{
+    display: none;
+    }
+
+.grid3-desktop{
+    display: none;
+    }
+
+.h1-white{
+    display: none;
+    } 
+ 
+.hero-mobile{
+    max-width: 100%;
+    }
+    
+.h1-black{
+    height: 110px;
+    width: 343px;
+    font-family: Big Shoulders Display;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #151515;
+    font-size: 60px;
+    }
+
+.intro-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    }   
+
+.p-white{
+    height: 112px;
+    width: 343px;
+    height: 112px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    }   
+
+.p2-white{
+    height: 112px;
+    width: 343px;
+    height: 112px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 28px;
+    }     
+
+.h2-white{
+    height: 90px;
+    max-width: 335px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-top: 25px;
+    }
+
+.right{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -70px;
+    }
+    
+button{
+    height: 72px;
+    width: 204px;
+    font-family: Big Shoulders Display;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    background-color: #151515;
+    color: white;
+    padding: 24px 35px 24px 0px;
+    box-sizing: border-box;
+    border: none;
+    }
+    
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    }   
+    
+a:hover button {
+    background-color: #D5966C;
+    cursor: pointer;
+    } 
+    
+a:hover .rightarrow {
+    background-color: #151515;
+    cursor: pointer;
+    }        
+
+.rightarrow{
+    background-color: #D5966C;
+    padding: 24px;
+    height: 72px;
+    width: 56px;
+    } 
+  
+.yourday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+    } 
+
+.yourday-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    }   
+
+.grid1-mobile{
+    height: 320px;
+    width: 343px;
+    }
+
+.come{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 343px;
+    }
+
+.come-card{
+    background-color: #151515;
+    color: white;
+    padding: 48px 24px 47px 24px;
+    box-sizing: border-box;    
+    }
+
+.h2-black{
+    height: 135px;
+    width: 223px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    }
+
+.p-black{
+    height: 84px;
+    max-width: 343px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 24px;
+    }    
+
+footer{
+    background-color: #151515;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding: 48px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    }   
+
+.h-footer{
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+
+.p-footer{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    height: 104px;
+    }
+
+.social{
+    display: flex;
+    gap: 20px;
+    } 
+    
+.icon{
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    display: inline-block;
+    }  
+    
+.icon-facebook{
+    background-image: url(./assets/icon-facebook.svg);
+    }
+    
+.icon-instagram{
+    background-image: url(./assets/icon-instagram.svg);
+    }
+    
+.icon-twitter{
+    background-image: url(./assets/icon-twitter.svg);
+    }
+    
+.icon-facebook:hover,
+.icon-facebook:focus{
+    background-image: url(./assets/icon-facebook\ -\ golden.svg); 
+    }
+    
+.icon-instagram:hover,
+.icon-instagram:focus{
+    background-image: url(./assets/icon-instagram\ -\ golden.svg);
+    }
+    
+.icon-twitter:hover,
+.icon-twitter:focus{
+    background-image: url(./assets/icon-twitter\ -\ golden.svg);
+    }
+      
+ 
+/* tablet designe */
+
+@media screen and (min-width: 768px){
+    .hero-mobile{
+        display: none;
+        }
+
+    .grid1-mobile{
+        display: none;
+        }  
+
+    .grid2-mobile{
+        display: none;
+        }
+
+    .grid3-mobile{
+        display: none;
+        }
+    
+    .grid1-tablet{
+        display: block;
+        Width: 398px;
+        Height: 400px;
+        }
+    
+    .grid2-tablet{
+        display: block;
+        height: 720px;
+        width: 398px;
+        }
+
+    .grid3-tablet{
+        display: block;
+        height: 313px;
+        width: 280px;
+        }
+  
+    .hero-tablet{
+        display: block;
+        position: relative;
+        z-index: 1;
+        }
+
+    .tablet-container{
+        display: flex;
+        flex-direction: row;  
+        }
+
+    .intro-card{
+        display: flex;
+        position: relative;
+        z-index: 2;
+        margin-top: -20px;
+        margin-left: -55px;
+        } 
+   
+    .yourday{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;    
+        }
+
+    .yourday-card{
+        margin-left: -70px;
+        height: 140px;
+        width: 223px;
+        }    
+
+    .grid1-tablet{
+        height: 400px;
+        width: 398px;
+        }    
+
+    .wrap{
+        display: flex;
+        margin-top: 30px;
+        gap: 11px;
+        margin-bottom: 120px;
+        }
+
+    .h2-white{
+        height: 135px;
+        width: 223px;
+        }
+      
+    .p2-white{
+        height: 140px;
+        width: 223px;
+        }    
+  
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+        }
+
+    .p-footer{
+        height: 104px;
+        width: 281px;
+        }
+
+    .come-card{
+        height: 392px;
+        width: 280px;
+        padding: 85px 28px;
+        }
+    
+    .icon{
+        width: 24px;
+        height: 24px;
+        }  
+     }
+
+/* desktop designe */
+      
+  @media screen and (min-width: 960px){
+
+    .hero-mobile{
+        display: none;
+        }
+
+    .hero-desktop{
+        display: inline;
+        height: 800px;
+        width: 540px;
+        }
+      
+    .overlay{
+        display: inline;
+        position: absolute;
+        height: 176px;
+        width: 514px;
+        font-size: 96px;
+        font-weight: 900;
+        margin-left: 165px;
+        margin-top: 190px;
+        text-transform: uppercase;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(270deg, black 45%, white 200px);
+        }    
+
+    .h1-black{
+        display: none;
+        }    
+
+    .grid1-mobile{
+        display: none;
+        }  
+
+    .grid2-mobile{
+        display: none;
+        }
+
+    .grid3-mobile{
+        display: none;
+        }
+
+    .hero-tablet{
+        display: none;
+        }
+    
+    .grid1-tablet{
+        display: none;
+        }  
+    
+    .grid2-tablet{
+        display: none;
+        }
+    
+   .grid3-tablet{
+        display: none;
+        }    
+    
+    .grid1-desktop{
+        display: block;
+        height: 400px;
+        width: 635px;
+        margin-left: 30px;
+        }
+    
+    .grid2-desktop{
+        display: block;
+        height: 710px;
+        width: 635px;
+        }
+
+    .grid3-desktop{
+        display: block;
+        height: 313px;
+        width: 445px;
+        }
+
+    .black-box{
+        height: 799px;
+        width: 450px;
+        background-color: #151515;
+        margin-left: 0px;
+        margin-left: 0px;
+        }
+
+    .desktop-container{
+        display: flex;
+        margin-right: 295px;
+        }
+     
+    .intro-card{
+        position: relative;
+        z-index: 2;
+        margin-left: 900px;
+        margin-top: -1060px;
+        gap: 65px;
+        }
+
+    .yourday{
+        gap: 170px;    
+        }
+
+    .yourday-card{
+        margin-left: 50px;
+        height: 350px;
+        width: 290px;
+        }     
+
+    .come-card{
+        height: 377px;
+        width: 445px;
+        } 
+
+    .p-white{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+        margin-top: 100px;
+        }
+
+    footer{
+        gap: 0px;
+        justify-content: center;
+        }    
+       
+    .p-footer{
+        height: 84px;
+        width: 430px;
+        font-size: 18px;
+        margin-left: 140px;    
+        margin-right: 270px;
+        }
+       
+    .h-footer{
+        font-size: 26px;
+        }    
+
+    }
+
+ 
+
+
+
+
