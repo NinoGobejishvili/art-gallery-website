@@ -249,7 +249,8 @@ footer{
     height: 24px;
     background-size: cover;
     display: inline-block;
-    }  
+    } 
+       
     
 .icon-facebook{
     background-image: url(./assets/icon-facebook.svg);
@@ -260,6 +261,8 @@ footer{
     }
     
 .icon-twitter{
+    width: 29px;
+    height: 24px;
     background-image: url(./assets/icon-twitter.svg);
     }
     

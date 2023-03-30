@@ -3,6 +3,7 @@
 .map-mobile{
     position: relative;
     z-index: 1;
+    width: 100%;
     }
 
 .map-tablet{
@@ -164,6 +165,8 @@ a:hover .leftarrow {
     }
     
 .icon-twitter{
+    width: 29px;
+    height: 24px;
     background-image: url(./assets/icon-twitter\ -\ dark.svg);
     }
     
